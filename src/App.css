@@ -1,0 +1,57 @@
+body{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+.main{
+  background:url('./photo1.avif');
+  height: 100vh;
+  display: flex; 
+   align-items: center; 
+  flex-direction: column; 
+   justify-content: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  
+}
+.weatherBg{
+  border: 10px solid whitesmoke;
+  border-radius: 25px;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.heading{
+  color: rgb(0, 0, 0);
+
+}
+.weatherResult{
+  height: 200px;
+  width: 250px;
+  border: 2px solid white;
+  margin-top: 20px;
+  background-color: white;
+  
+}
+.icon{
+  
+  color: rgb(255, 191, 0);
+  font-size: 50px;
+  margin-top: 5px;
+}
+.weatherCity{
+  font-size: 35px;
+  margin-top: 5px;
+}
+.weatherTemperature{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+
